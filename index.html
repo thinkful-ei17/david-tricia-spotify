@@ -149,6 +149,7 @@ Spotify.prototype.onSearchSubmitted = function(event) {
     return;
   }
   var name = this.searchBox.val();
+  console.log(name);
   this.search(name);
   this.result.toggleClass('transparent');
 };
